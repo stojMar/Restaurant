@@ -1,0 +1,428 @@
+
+body{
+	background-color: grey;
+	color:rgb(10, 10, 10);
+	font-family:"roboto" sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	
+}
+
+
+
+
+.header {
+	text-align: left;
+	background-color: grey;
+
+	
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(173, 168, 168);
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+	font-size: 18px;
+  }
+  
+  li a:hover:not(.active) {
+	background-color:rgb(134, 134, 207);
+  }
+  
+  .active {
+	background-color:rgb(115, 115, 226);
+  }
+.intro {
+	display: table;
+	width: 100%;
+	padding: 80px;
+	background-image: url(restoran/111.jpg)  ;
+	background-size: cover;
+	
+
+	
+}
+.intro .overlay {
+	background: rgba(0,0,0,0.4);
+}
+.intro h1 {
+	font-family: 'Rochester', cursive;
+	color:white;
+	font-size: 10em;
+	font-weight: 400;
+	margin-top: 0;
+}
+.intro span {
+	color: white;
+	font-weight: 600;
+}
+.intro p {
+	color:white;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 150px;
+}
+header .intro-text {
+	padding-top: 200px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+
+
+  
+/*Meni*/
+#menu h3{
+	font-family: 'Rochester', cursive;
+	color:black;
+	margin-top: 0;
+	background-color: white;
+	text-align: center;
+	font-size: 30px;
+}
+#menu h1{
+	color: white;
+	font-size: 15px;
+}
+
+#menu {
+	padding: 100px 0 60px 0;
+}
+#menu img {
+	width: 300px;
+	box-shadow: 15px 0 #a7c44c;
+}
+#menu h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+#menu .menu-section hr {
+	margin: 0 auto;
+}
+#menu .menu-section {
+	margin: 0 20px 80px;
+}
+#menu .menu-section-title {
+	font-size: 32px;
+	display: block;
+	font-weight: 400;
+	color: white;
+	margin: 20px 0;
+	text-align: center;
+}
+#menu .menu-item {
+	margin: 45px 0;
+	font-size: 18px;
+}
+#menu .menu-item-name {
+	font-weight: 400;
+	font-size: 20px;
+	color: #444;
+	margin-bottom: 10px;
+}
+#menu .menu-item-description {
+	font-size: 15px;
+	width: 85%;
+}
+#menu .menu-item-price {
+	float: right;
+	font-weight: 400;
+	color: #555;
+	margin-top: -36px;
+}
+.menu-section-title {
+	
+		background-color: rgb(183, 183, 250);
+		width: 	98%;
+		padding: 11px;
+	
+	
+}
+
+
+/*kontakt*/
+#contact {
+	padding: 80px 0;
+	background: grey;
+}
+#contact h1{
+	font-family: 'Rochester', cursive;
+	color: black;
+	margin-top: 0;
+	background-color: white;
+	padding: 12px;
+	text-align: center;
+	font-size: 30px;
+}
+#contact .contact-item p {
+	font-size: 15px;
+	color: black;
+}
+#contact .section-title {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+#contact form {
+	padding: 0;
+}
+#contact h3 {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+	color:white;
+	padding: 20px 0;
+}
+#contact h3::after {
+	position: absolute;
+	content: "";
+	background: grey;
+	height: 2px;
+	width: 40px;
+	bottom: 0;
+	margin-left: 20px;
+	left: 50%;
+	
+}
+#contact .text-danger {
+	color: grey;
+	text-align: center;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #ccc;
+	background-color: rgba(255,255,255,.2);
+	background-image: none;
+	border: 0;
+	border-radius: 1;
+	box-shadow: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: #999;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+.form-control::-input-placeholder {
+color: #999;
+}
+#contact .contact-item {
+	margin: 20px 0 40px 0;
+}
+#contact .contact-item span {
+	font-weight: 400;
+	color: #aaa;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	display: inline-block;
+}
+/*mapa*/
+.mapouter{
+	position:relative;
+	text-align:center;
+	height:400px;
+	width:200px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none;
+	height:400px;
+	width:500px;
+}
+/*za nas */
+#about h2 {
+	font-family: 'Rochester', cursive;
+	color: black;
+	padding: 15px;
+	margin-top: 0;
+	background-color: white;
+	text-align: center;
+	font-size: 30px;
+}
+#about p{
+ font-size: 15px;
+ font-display: none;
+ text-align: justify;
+}
+
+/*galerija/ za nas*/
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+	opacity: 0.8; 
+	cursor: pointer; 
+	
+  }
+  
+  .column img:hover {
+	opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* The expanding image container */
+  .container1 {
+	position: relative;
+	display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+  }
+
+/*galerija/ meni*/
+  
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:700px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 12px 18px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+.fade {
+  
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+/*fb, insta, youtube kopce*/
+ .fa {
+	padding:25px;
+	font-size: 30px;
+	
+
+	width: 80px;
+	text-align:right;
+	text-decoration: none;
+	margin: 6px 3px;
+	border-radius: 50%;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background:none;
+	color: white;
+  }
+  .fa-instagram {
+	background:NONE;
+	color:white;
+  }  
+  .fa-youtube{
+	background:NONE;
+	color:white;
+
+  }
